@@ -7,7 +7,7 @@ Sunshine: #F7B733 – The Yellow provides only a juxtaposed call to action and h
 Clean: #DFDCE3 – Clean grey, utilized in the photograph, keeps the structure un-encomberred by more colors or patterns in these sharp headshots. */
 body {
   text-align: center;
-  color: #DFDCE3;
+  color: white;
   background-color: #4ABDAC;
 }
 
@@ -77,6 +77,7 @@ ul li {
 .love {
   margin: auto;
   font-size: 20px;
+  font-family: cursive;
 }
 
 .love i {
