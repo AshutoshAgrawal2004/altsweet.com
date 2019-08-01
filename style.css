@@ -9,14 +9,16 @@ body {
   text-align: center;
   color: #DFDCE3;
   background-color: #4ABDAC;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #heading {
-  font-size: 32px;
+  margin: 20px;
+  font-size: 48px;
   font-family: 'Times New Roman', sans-serif;
+}
+
+#estimation {
+  font-size: 32px;
 }
 
 button {
@@ -31,16 +33,48 @@ a {
 }
 
 #buy {
-  font-size: 20px;
+  font-size: 30px;
   padding: 10px;
   border: none;
   border-radius: 10px;
+  font-family: 'Times New Roman', sans-serif;
+  box-shadow: 5px 5px #C4922D;
 }
 
 #buy:hover {
   cursor: pointer;
 }
 
+#buy:active {
+  box-shadow: none;
+}
+
 #domainname {
   text-decoration: underline;
+  background-color: #FC4A1A;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+ul {
+  list-style-image: url('icons8-ok-48.png');
+  text-align: left;
+}
+
+ul li {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+#infohead {
+  font-size: 30px;
+  background-color: #FC4A1A;
+  color: white;
+  padding: 5px;
 }
