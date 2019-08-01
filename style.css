@@ -1,9 +1,17 @@
+/* Fresh: #4ABDAC – Once again the color overlaid over the photographic elements provides a classy modern touch
+
+Vermillion: #FC4A1A – A figure in the foreground is worked into the context, still paying attention to how it complements the overall structure of the design. In fact one might even be able to surmise that the design was down around this figure.
+
+Sunshine: #F7B733 – The Yellow provides only a juxtaposed call to action and highlights imporant parts
+
+Clean: #DFDCE3 – Clean grey, utilized in the photograph, keeps the structure un-encomberred by more colors or patterns in these sharp headshots. */
 body {
   text-align: center;
-  color: white;
-  background-image: url('bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  color: #DFDCE3;
+  background-color: #4ABDAC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #heading {
@@ -12,8 +20,7 @@ body {
 }
 
 button {
-  background-color: transparent;
-  background: transparent;
+  background-color: #F7B733;
   color: white;
   outline: none;
 }
@@ -24,9 +31,10 @@ a {
 }
 
 #buy {
-  border: white 5px solid;
   font-size: 20px;
   padding: 10px;
+  border: none;
+  border-radius: 10px;
 }
 
 #buy:hover {
